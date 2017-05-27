@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ADAA0861ED9DEAC00C8808A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA0851ED9DEAC00C8808A /* AppDelegate.swift */; };
+		2ADAA0881ED9DEAC00C8808A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA0871ED9DEAC00C8808A /* ViewController.swift */; };
+		2ADAA08B1ED9DEAC00C8808A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAA0891ED9DEAC00C8808A /* Main.storyboard */; };
+		2ADAA08E1ED9DEAD00C8808A /* minichat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA08C1ED9DEAC00C8808A /* minichat.xcdatamodeld */; };
+		2ADAA0901ED9DEAD00C8808A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAA08F1ED9DEAD00C8808A /* Assets.xcassets */; };
+		2ADAA0931ED9DEAD00C8808A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAA0911ED9DEAD00C8808A /* LaunchScreen.storyboard */; };
+		2ADAA09E1ED9DEAD00C8808A /* minichatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA09D1ED9DEAD00C8808A /* minichatTests.swift */; };
+		2ADAA0A91ED9DEAD00C8808A /* minichatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA0A81ED9DEAD00C8808A /* minichatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ADAA09A1ED9DEAD00C8808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADAA07A1ED9DEAC00C8808A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADAA0811ED9DEAC00C8808A;
+			remoteInfo = minichat;
+		};
+		2ADAA0A51ED9DEAD00C8808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADAA07A1ED9DEAC00C8808A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADAA0811ED9DEAC00C8808A;
+			remoteInfo = minichat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ADAA0821ED9DEAC00C8808A /* minichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADAA0851ED9DEAC00C8808A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2ADAA0871ED9DEAC00C8808A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ADAA08A1ED9DEAC00C8808A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ADAA08D1ED9DEAD00C8808A /* minichat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = minichat.xcdatamodel; sourceTree = "<group>"; };
+		2ADAA08F1ED9DEAD00C8808A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADAA0921ED9DEAD00C8808A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ADAA0941ED9DEAD00C8808A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADAA0991ED9DEAD00C8808A /* minichatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minichatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADAA09D1ED9DEAD00C8808A /* minichatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minichatTests.swift; sourceTree = "<group>"; };
+		2ADAA09F1ED9DEAD00C8808A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADAA0A41ED9DEAD00C8808A /* minichatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minichatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADAA0A81ED9DEAD00C8808A /* minichatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minichatUITests.swift; sourceTree = "<group>"; };
+		2ADAA0AA1ED9DEAD00C8808A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADAA07F1ED9DEAC00C8808A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAA0961ED9DEAD00C8808A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAA0A11ED9DEAD00C8808A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADAA0791ED9DEAC00C8808A = {
+			isa = PBXGroup;
+			children = (
+				2ADAA0841ED9DEAC00C8808A /* minichat */,
+				2ADAA09C1ED9DEAD00C8808A /* minichatTests */,
+				2ADAA0A71ED9DEAD00C8808A /* minichatUITests */,
+				2ADAA0831ED9DEAC00C8808A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADAA0831ED9DEAC00C8808A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAA0821ED9DEAC00C8808A /* minichat.app */,
+				2ADAA0991ED9DEAD00C8808A /* minichatTests.xctest */,
+				2ADAA0A41ED9DEAD00C8808A /* minichatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADAA0841ED9DEAC00C8808A /* minichat */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAA0851ED9DEAC00C8808A /* AppDelegate.swift */,
+				2ADAA0871ED9DEAC00C8808A /* ViewController.swift */,
+				2ADAA0891ED9DEAC00C8808A /* Main.storyboard */,
+				2ADAA08F1ED9DEAD00C8808A /* Assets.xcassets */,
+				2ADAA0911ED9DEAD00C8808A /* LaunchScreen.storyboard */,
+				2ADAA0941ED9DEAD00C8808A /* Info.plist */,
+				2ADAA08C1ED9DEAC00C8808A /* minichat.xcdatamodeld */,
+			);
+			path = minichat;
+			sourceTree = "<group>";
+		};
+		2ADAA09C1ED9DEAD00C8808A /* minichatTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAA09D1ED9DEAD00C8808A /* minichatTests.swift */,
+				2ADAA09F1ED9DEAD00C8808A /* Info.plist */,
+			);
+			path = minichatTests;
+			sourceTree = "<group>";
+		};
+		2ADAA0A71ED9DEAD00C8808A /* minichatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAA0A81ED9DEAD00C8808A /* minichatUITests.swift */,
+				2ADAA0AA1ED9DEAD00C8808A /* Info.plist */,
+			);
+			path = minichatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ADAA0811ED9DEAC00C8808A /* minichat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADAA0AD1ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichat" */;
+			buildPhases = (
+				2ADAA07E1ED9DEAC00C8808A /* Sources */,
+				2ADAA07F1ED9DEAC00C8808A /* Frameworks */,
+				2ADAA0801ED9DEAC00C8808A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minichat;
+			productName = minichat;
+			productReference = 2ADAA0821ED9DEAC00C8808A /* minichat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ADAA0981ED9DEAD00C8808A /* minichatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADAA0B01ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatTests" */;
+			buildPhases = (
+				2ADAA0951ED9DEAD00C8808A /* Sources */,
+				2ADAA0961ED9DEAD00C8808A /* Frameworks */,
+				2ADAA0971ED9DEAD00C8808A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADAA09B1ED9DEAD00C8808A /* PBXTargetDependency */,
+			);
+			name = minichatTests;
+			productName = minichatTests;
+			productReference = 2ADAA0991ED9DEAD00C8808A /* minichatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ADAA0A31ED9DEAD00C8808A /* minichatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADAA0B31ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatUITests" */;
+			buildPhases = (
+				2ADAA0A01ED9DEAD00C8808A /* Sources */,
+				2ADAA0A11ED9DEAD00C8808A /* Frameworks */,
+				2ADAA0A21ED9DEAD00C8808A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADAA0A61ED9DEAD00C8808A /* PBXTargetDependency */,
+			);
+			name = minichatUITests;
+			productName = minichatUITests;
+			productReference = 2ADAA0A41ED9DEAD00C8808A /* minichatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADAA07A1ED9DEAC00C8808A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Thannathrn Yuwasin";
+				TargetAttributes = {
+					2ADAA0811ED9DEAC00C8808A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 43BZM82BA4;
+						ProvisioningStyle = Automatic;
+					};
+					2ADAA0981ED9DEAD00C8808A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 43BZM82BA4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ADAA0811ED9DEAC00C8808A;
+					};
+					2ADAA0A31ED9DEAD00C8808A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 43BZM82BA4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ADAA0811ED9DEAC00C8808A;
+					};
+				};
+			};
+			buildConfigurationList = 2ADAA07D1ED9DEAC00C8808A /* Build configuration list for PBXProject "minichat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ADAA0791ED9DEAC00C8808A;
+			productRefGroup = 2ADAA0831ED9DEAC00C8808A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADAA0811ED9DEAC00C8808A /* minichat */,
+				2ADAA0981ED9DEAD00C8808A /* minichatTests */,
+				2ADAA0A31ED9DEAD00C8808A /* minichatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADAA0801ED9DEAC00C8808A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADAA0931ED9DEAD00C8808A /* LaunchScreen.storyboard in Resources */,
+				2ADAA0901ED9DEAD00C8808A /* Assets.xcassets in Resources */,
+				2ADAA08B1ED9DEAC00C8808A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAA0971ED9DEAD00C8808A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAA0A21ED9DEAD00C8808A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADAA07E1ED9DEAC00C8808A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADAA0881ED9DEAC00C8808A /* ViewController.swift in Sources */,
+				2ADAA08E1ED9DEAD00C8808A /* minichat.xcdatamodeld in Sources */,
+				2ADAA0861ED9DEAC00C8808A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAA0951ED9DEAD00C8808A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADAA09E1ED9DEAD00C8808A /* minichatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADAA0A01ED9DEAD00C8808A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADAA0A91ED9DEAD00C8808A /* minichatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ADAA09B1ED9DEAD00C8808A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADAA0811ED9DEAC00C8808A /* minichat */;
+			targetProxy = 2ADAA09A1ED9DEAD00C8808A /* PBXContainerItemProxy */;
+		};
+		2ADAA0A61ED9DEAD00C8808A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADAA0811ED9DEAC00C8808A /* minichat */;
+			targetProxy = 2ADAA0A51ED9DEAD00C8808A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ADAA0891ED9DEAC00C8808A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADAA08A1ED9DEAC00C8808A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ADAA0911ED9DEAD00C8808A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADAA0921ED9DEAD00C8808A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ADAA0AB1ED9DEAD00C8808A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ADAA0AC1ED9DEAD00C8808A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADAA0AE1ED9DEAD00C8808A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43BZM82BA4;
+				INFOPLIST_FILE = minichat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2ADAA0AF1ED9DEAD00C8808A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43BZM82BA4;
+				INFOPLIST_FILE = minichat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2ADAA0B11ED9DEAD00C8808A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 43BZM82BA4;
+				INFOPLIST_FILE = minichatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minichat.app/minichat";
+			};
+			name = Debug;
+		};
+		2ADAA0B21ED9DEAD00C8808A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 43BZM82BA4;
+				INFOPLIST_FILE = minichatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minichat.app/minichat";
+			};
+			name = Release;
+		};
+		2ADAA0B41ED9DEAD00C8808A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 43BZM82BA4;
+				INFOPLIST_FILE = minichatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = minichat;
+			};
+			name = Debug;
+		};
+		2ADAA0B51ED9DEAD00C8808A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 43BZM82BA4;
+				INFOPLIST_FILE = minichatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = minichat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADAA07D1ED9DEAC00C8808A /* Build configuration list for PBXProject "minichat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADAA0AB1ED9DEAD00C8808A /* Debug */,
+				2ADAA0AC1ED9DEAD00C8808A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADAA0AD1ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADAA0AE1ED9DEAD00C8808A /* Debug */,
+				2ADAA0AF1ED9DEAD00C8808A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ADAA0B01ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADAA0B11ED9DEAD00C8808A /* Debug */,
+				2ADAA0B21ED9DEAD00C8808A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ADAA0B31ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADAA0B41ED9DEAD00C8808A /* Debug */,
+				2ADAA0B51ED9DEAD00C8808A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2ADAA08C1ED9DEAC00C8808A /* minichat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2ADAA08D1ED9DEAD00C8808A /* minichat.xcdatamodel */,
+			);
+			currentVersion = 2ADAA08D1ED9DEAD00C8808A /* minichat.xcdatamodel */;
+			path = minichat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2ADAA07A1ED9DEAC00C8808A /* Project object */;
+}
