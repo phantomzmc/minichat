@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E72D633F2AB60C7E1C6D854 /* Pods_minichatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDABB372C34ECB83EB97C34C /* Pods_minichatTests.framework */; };
+		2A21015E1EE9CD670089FDF8 /* ForgetPassowrdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21015D1EE9CD670089FDF8 /* ForgetPassowrdViewController.swift */; };
+		2A2101601EE9D6AD0089FDF8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21015F1EE9D6AD0089FDF8 /* ChatViewController.swift */; };
+		2A4295601EDDC6510073EC20 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42955F1EDDC6510073EC20 /* Alert.swift */; };
+		2A4295621EDDD1490073EC20 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4295611EDDD1490073EC20 /* RegisterViewController.swift */; };
+		2A47D41D1EF9ACF3002DF65E /* ChatVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47D41C1EF9ACF3002DF65E /* ChatVCCell.swift */; };
+		2A47D41F1EF9AE30002DF65E /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A47D41E1EF9AE30002DF65E /* MessageData.swift */; };
+		2A77D8A11EDB7D130034C970 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77D8A01EDB7D130034C970 /* LoginViewController.swift */; };
+		2A8418CF1EFD858C008BE11E /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8418CE1EFD858C008BE11E /* Const.swift */; };
 		2ADAA0861ED9DEAC00C8808A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA0851ED9DEAC00C8808A /* AppDelegate.swift */; };
 		2ADAA0881ED9DEAC00C8808A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA0871ED9DEAC00C8808A /* ViewController.swift */; };
 		2ADAA08B1ED9DEAC00C8808A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAA0891ED9DEAC00C8808A /* Main.storyboard */; };
@@ -15,6 +24,9 @@
 		2ADAA0931ED9DEAD00C8808A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAA0911ED9DEAD00C8808A /* LaunchScreen.storyboard */; };
 		2ADAA09E1ED9DEAD00C8808A /* minichatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA09D1ED9DEAD00C8808A /* minichatTests.swift */; };
 		2ADAA0A91ED9DEAD00C8808A /* minichatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAA0A81ED9DEAD00C8808A /* minichatUITests.swift */; };
+		2ADAA0B71ED9E43100C8808A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAA0B61ED9E43100C8808A /* GoogleService-Info.plist */; };
+		789C084AFB72FECB9A83E38B /* Pods_minichatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B280D119415A3CE028FC6634 /* Pods_minichatUITests.framework */; };
+		AFAFD95017BFD441E57A30EA /* Pods_minichat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B1785B9C21C6D338D273D8 /* Pods_minichat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B1785B9C21C6D338D273D8 /* Pods_minichat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minichat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A21015D1EE9CD670089FDF8 /* ForgetPassowrdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPassowrdViewController.swift; sourceTree = "<group>"; };
+		2A21015F1EE9D6AD0089FDF8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2A42955F1EDDC6510073EC20 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = ../Alert.swift; sourceTree = "<group>"; };
+		2A4295611EDDD1490073EC20 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2A47D41C1EF9ACF3002DF65E /* ChatVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVCCell.swift; sourceTree = "<group>"; };
+		2A47D41E1EF9AE30002DF65E /* MessageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		2A77D8A01EDB7D130034C970 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A8418CE1EFD858C008BE11E /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		2ADAA0821ED9DEAC00C8808A /* minichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADAA0851ED9DEAC00C8808A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ADAA0871ED9DEAC00C8808A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +70,15 @@
 		2ADAA0A41ED9DEAD00C8808A /* minichatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minichatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADAA0A81ED9DEAD00C8808A /* minichatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minichatUITests.swift; sourceTree = "<group>"; };
 		2ADAA0AA1ED9DEAD00C8808A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADAA0B61ED9E43100C8808A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47059A5C8E56D70DDE8E3FA9 /* Pods-minichatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minichatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-minichatTests/Pods-minichatTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AB60C68A48AA61923566680 /* Pods-minichat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minichat.release.xcconfig"; path = "Pods/Target Support Files/Pods-minichat/Pods-minichat.release.xcconfig"; sourceTree = "<group>"; };
+		706F5F8FF005CCC2BC5A15E1 /* Pods-minichatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minichatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minichatTests/Pods-minichatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7466C9CAF874CF404206E22F /* Pods-minichatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minichatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minichatUITests/Pods-minichatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A78875758690A756CD497F4A /* Pods-minichat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minichat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-minichat/Pods-minichat.debug.xcconfig"; sourceTree = "<group>"; };
+		B280D119415A3CE028FC6634 /* Pods_minichatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minichatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDABB372C34ECB83EB97C34C /* Pods_minichatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_minichatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E634DD9FF0D760F155096743 /* Pods-minichatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-minichatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-minichatUITests/Pods-minichatUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFAFD95017BFD441E57A30EA /* Pods_minichat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E72D633F2AB60C7E1C6D854 /* Pods_minichatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789C084AFB72FECB9A83E38B /* Pods_minichatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A87D95E1EDE09280073CADE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A42955F1EDDC6510073EC20 /* Alert.swift */,
+				2ADAA0891ED9DEAC00C8808A /* Main.storyboard */,
+				2A8418CE1EFD858C008BE11E /* Const.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2A87D95F1EDE09400073CADE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAA0871ED9DEAC00C8808A /* ViewController.swift */,
+				2A77D8A01EDB7D130034C970 /* LoginViewController.swift */,
+				2A4295611EDDD1490073EC20 /* RegisterViewController.swift */,
+				2A21015D1EE9CD670089FDF8 /* ForgetPassowrdViewController.swift */,
+				2A21015F1EE9D6AD0089FDF8 /* ChatViewController.swift */,
+				2A47D41C1EF9ACF3002DF65E /* ChatVCCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2A87D9601EDE096B0073CADE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A47D41E1EF9AE30002DF65E /* MessageData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		2ADAA0791ED9DEAC00C8808A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +147,8 @@
 				2ADAA09C1ED9DEAD00C8808A /* minichatTests */,
 				2ADAA0A71ED9DEAD00C8808A /* minichatUITests */,
 				2ADAA0831ED9DEAC00C8808A /* Products */,
+				35626B8D13705C74F13C8781 /* Pods */,
+				BEEF44A9AC2F3FF854855AE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +166,13 @@
 			isa = PBXGroup;
 			children = (
 				2ADAA0851ED9DEAC00C8808A /* AppDelegate.swift */,
-				2ADAA0871ED9DEAC00C8808A /* ViewController.swift */,
-				2ADAA0891ED9DEAC00C8808A /* Main.storyboard */,
+				2A87D9601EDE096B0073CADE /* Model */,
+				2A87D95F1EDE09400073CADE /* Controller */,
+				2A87D95E1EDE09280073CADE /* View */,
 				2ADAA08F1ED9DEAD00C8808A /* Assets.xcassets */,
 				2ADAA0911ED9DEAD00C8808A /* LaunchScreen.storyboard */,
 				2ADAA0941ED9DEAD00C8808A /* Info.plist */,
+				2ADAA0B61ED9E43100C8808A /* GoogleService-Info.plist */,
 				2ADAA08C1ED9DEAC00C8808A /* minichat.xcdatamodeld */,
 			);
 			path = minichat;
@@ -128,6 +196,29 @@
 			path = minichatUITests;
 			sourceTree = "<group>";
 		};
+		35626B8D13705C74F13C8781 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A78875758690A756CD497F4A /* Pods-minichat.debug.xcconfig */,
+				5AB60C68A48AA61923566680 /* Pods-minichat.release.xcconfig */,
+				706F5F8FF005CCC2BC5A15E1 /* Pods-minichatTests.debug.xcconfig */,
+				47059A5C8E56D70DDE8E3FA9 /* Pods-minichatTests.release.xcconfig */,
+				7466C9CAF874CF404206E22F /* Pods-minichatUITests.debug.xcconfig */,
+				E634DD9FF0D760F155096743 /* Pods-minichatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEEF44A9AC2F3FF854855AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B1785B9C21C6D338D273D8 /* Pods_minichat.framework */,
+				BDABB372C34ECB83EB97C34C /* Pods_minichatTests.framework */,
+				B280D119415A3CE028FC6634 /* Pods_minichatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ADAA0AD1ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichat" */;
 			buildPhases = (
+				CC9720BA9B7452FED997333F /* [CP] Check Pods Manifest.lock */,
 				2ADAA07E1ED9DEAC00C8808A /* Sources */,
 				2ADAA07F1ED9DEAC00C8808A /* Frameworks */,
 				2ADAA0801ED9DEAC00C8808A /* Resources */,
+				EC812139BBC44CB1C1DD85EC /* [CP] Embed Pods Frameworks */,
+				1656E3E82F25546E36951433 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ADAA0B01ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatTests" */;
 			buildPhases = (
+				D687E9BB39396DD21E92E3E8 /* [CP] Check Pods Manifest.lock */,
 				2ADAA0951ED9DEAD00C8808A /* Sources */,
 				2ADAA0961ED9DEAD00C8808A /* Frameworks */,
 				2ADAA0971ED9DEAD00C8808A /* Resources */,
+				AAFFDDFB4D6F4403262E3F42 /* [CP] Embed Pods Frameworks */,
+				A935A812D8F2F1D934918C9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ADAA0B31ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatUITests" */;
 			buildPhases = (
+				9AD816CCD8E92D7601B4D081 /* [CP] Check Pods Manifest.lock */,
 				2ADAA0A01ED9DEAD00C8808A /* Sources */,
 				2ADAA0A11ED9DEAD00C8808A /* Frameworks */,
 				2ADAA0A21ED9DEAD00C8808A /* Resources */,
+				355115CB01BF703978D0154D /* [CP] Embed Pods Frameworks */,
+				F3B0B32235A91E2383879390 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADAA0931ED9DEAD00C8808A /* LaunchScreen.storyboard in Resources */,
+				2ADAA0B71ED9E43100C8808A /* GoogleService-Info.plist in Resources */,
 				2ADAA0901ED9DEAD00C8808A /* Assets.xcassets in Resources */,
 				2ADAA08B1ED9DEAC00C8808A /* Main.storyboard in Resources */,
 			);
@@ -260,14 +361,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1656E3E82F25546E36951433 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minichat/Pods-minichat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355115CB01BF703978D0154D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minichatUITests/Pods-minichatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD816CCD8E92D7601B4D081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A935A812D8F2F1D934918C9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minichatTests/Pods-minichatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAFFDDFB4D6F4403262E3F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minichatTests/Pods-minichatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9720BA9B7452FED997333F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D687E9BB39396DD21E92E3E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC812139BBC44CB1C1DD85EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minichat/Pods-minichat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B0B32235A91E2383879390 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-minichatUITests/Pods-minichatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2ADAA07E1ED9DEAC00C8808A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A77D8A11EDB7D130034C970 /* LoginViewController.swift in Sources */,
 				2ADAA0881ED9DEAC00C8808A /* ViewController.swift in Sources */,
+				2A2101601EE9D6AD0089FDF8 /* ChatViewController.swift in Sources */,
 				2ADAA08E1ED9DEAD00C8808A /* minichat.xcdatamodeld in Sources */,
+				2A4295621EDDD1490073EC20 /* RegisterViewController.swift in Sources */,
+				2A47D41F1EF9AE30002DF65E /* MessageData.swift in Sources */,
+				2A47D41D1EF9ACF3002DF65E /* ChatVCCell.swift in Sources */,
+				2A4295601EDDC6510073EC20 /* Alert.swift in Sources */,
 				2ADAA0861ED9DEAC00C8808A /* AppDelegate.swift in Sources */,
+				2A21015E1EE9CD670089FDF8 /* ForgetPassowrdViewController.swift in Sources */,
+				2A8418CF1EFD858C008BE11E /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,32 +666,41 @@
 		};
 		2ADAA0AE1ED9DEAD00C8808A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78875758690A756CD497F4A /* Pods-minichat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 43BZM82BA4;
 				INFOPLIST_FILE = minichat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2ADAA0AF1ED9DEAD00C8808A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB60C68A48AA61923566680 /* Pods-minichat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 43BZM82BA4;
 				INFOPLIST_FILE = minichat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ithunnathorn.minichat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		2ADAA0B11ED9DEAD00C8808A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706F5F8FF005CCC2BC5A15E1 /* Pods-minichatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +716,7 @@
 		};
 		2ADAA0B21ED9DEAD00C8808A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47059A5C8E56D70DDE8E3FA9 /* Pods-minichatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +732,7 @@
 		};
 		2ADAA0B41ED9DEAD00C8808A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7466C9CAF874CF404206E22F /* Pods-minichatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 43BZM82BA4;
@@ -489,6 +747,7 @@
 		};
 		2ADAA0B51ED9DEAD00C8808A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E634DD9FF0D760F155096743 /* Pods-minichatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 43BZM82BA4;
@@ -520,6 +779,7 @@
 				2ADAA0AF1ED9DEAD00C8808A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADAA0B01ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +788,7 @@
 				2ADAA0B21ED9DEAD00C8808A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADAA0B31ED9DEAD00C8808A /* Build configuration list for PBXNativeTarget "minichatUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +797,7 @@
 				2ADAA0B51ED9DEAD00C8808A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
