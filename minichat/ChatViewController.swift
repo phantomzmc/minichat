@@ -21,6 +21,7 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
     var firDataSnapshotArray:[DataSnapshot]! = [DataSnapshot]()
     var databaseRef: DatabaseReference!
     private var _databaseHandle:DatabaseHandle! = nil
+    var userEmail : String!
     
     
     
@@ -56,13 +57,37 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        databaseRelese()
-        databaseInit()
+//        databaseRelese()
+//        databaseInit()
+            getUserEmail()
     }
+    
+    func getUserEmail(){
+        let firAuthEmail = Auth.auth().currentUser?.email
+        if firAuthEmail != nil {
+            userEmail = firAuthEmail
+            userEmail = replaceSpacialCharater(inputEmail:userEmail)
+            databaseRelese()
+            databaseInit()
+        }
+  
+    }
+    func replaceSpacialCharater (inputEmail:String) -> String{
+        var outputEmail = inputEmail
+        outputEmail = outputEmail.replacingOccurrences(of: ".", with: "dot")
+        outputEmail = outputEmail.replacingOccurrences(of: "$", with: "dollarsci")
+        outputEmail = outputEmail.replacingOccurrences(of: "[", with: "strat")
+        outputEmail = outputEmail.replacingOccurrences(of: "]", with: "end")
+        outputEmail = outputEmail.replacingOccurrences(of: "#", with: "shap")
+        return outputEmail
+    }
+    
     
     func databaseInit(){
         databaseRef = Database.database().reference()
-        _databaseHandle = self.databaseRef.child("MiniChat").observe(.childAdded, with: { (firebaseSnapshot) in
+//        _databaseHandle = self.databaseRef.child("MiniChat").observe(.childAdded, with: { (firebaseSnapshot) in
+        _databaseHandle = self.databaseRef.child(userEmail).observe(.childAdded, with: { (firebaseSnapshot) in
+            
             self.firDataSnapshotArray.append(firebaseSnapshot)
             let indexPathOfLastRow = IndexPath(row: self.firDataSnapshotArray.count-1,section:0)
             self.chatTableView.insertRows(at: [indexPathOfLastRow], with:.automatic)
@@ -71,7 +96,7 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
     }
     func databaseRelese(){
         if (_databaseHandle != nil) {
-            self.databaseRef.child("MiniChat").removeObserver(withHandle: _databaseHandle)
+            self.databaseRef.child(userEmail).removeObserver(withHandle: _databaseHandle)
             _databaseHandle = nil
         }
     }
@@ -79,7 +104,7 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
     
     @IBAction func sendMessage(_ sender: Any) {
         if(inputMessegeTxt.text!.characters.count > 0){
-            let messageData = MessageData(msgText: inputMessegeTxt.text!, msgDateTime: Const.CurrentDateTimeToStr())
+            let messageData = MessageData(msgText: inputMessegeTxt.text!, msgDateTime: Const.CurrentDateTimeToStr(), msgUserEmail:userEmail)
             onSendMessage(messageData:messageData)
             inputMessegeTxt.text = ""
             
@@ -91,9 +116,10 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
         let dataValue: Dictionary<String, AnyObject> =
             [
                 MessageData.MSGTEXT_ID:messageData.MsgText as AnyObject,
-                MessageData.MSGDATETIME_ID:messageData.MsgDateTime as AnyObject
+                MessageData.MSGDATETIME_ID:messageData.MsgDateTime as AnyObject,
+                MessageData.MSGUSEREMAIL:messageData.MsgUserEmail as AnyObject
             ]
-        self.databaseRef.child("MiniChat").childByAutoId().setValue(dataValue)
+        self.databaseRef.child(userEmail).childByAutoId().setValue(dataValue)
     }
     
     
@@ -134,6 +160,7 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
         var strText = ""
         if let tempstrText = snapshotValue[MessageData.MSGTEXT_ID] as! String! {
             strText = tempstrText
+            
         }
         
         var strDateTime = ""
@@ -141,9 +168,14 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
             strDateTime = tempsteDateTime
         }
         
+        var strUserEmail = ""
+        if let tempstrUserEmail = snapshotValue[MessageData.MSGUSEREMAIL] as! String! {
+            strUserEmail = tempstrUserEmail
+        }
+        
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell") as? ChatVCCell {
             if (strText != "") {
-                let messageData = MessageData(msgText: strText, msgDateTime: strDateTime)
+                let messageData = MessageData(msgText: strText, msgDateTime: strDateTime, msgUserEmail: strUserEmail)
                 cell.setValue(messageData: messageData)
             }
             return cell
@@ -151,7 +183,7 @@ class ChatViewController: UIViewController,UITextViewDelegate,UITableViewDelegat
         else{
             let cell = ChatVCCell()
             if (strText != "") {
-                let messageData = MessageData(msgText: strText, msgDateTime: strDateTime)
+                let messageData = MessageData(msgText: strText, msgDateTime: strDateTime, msgUserEmail: strUserEmail)
                 cell.setValue(messageData: messageData)
                 
             }

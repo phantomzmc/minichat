@@ -13,6 +13,7 @@ class ChatVCCell: UITableViewCell {
     @IBOutlet weak var TextLbl: UILabel!
     @IBOutlet weak var DateTimeMessageTxt: UILabel!
 
+    @IBOutlet weak var userEmailLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,6 +23,7 @@ class ChatVCCell: UITableViewCell {
     func setValue(messageData:MessageData) {
         TextLbl.text = messageData.MsgText
         DateTimeMessageTxt.text = messageData.MsgDateTime
+        userEmailLabel.text = messageData.MsgUserEmail
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
